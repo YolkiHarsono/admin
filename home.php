@@ -1,19 +1,21 @@
-<?php 
-    session_start(); 
+<?php
+session_start();
 
-    //jika belum login, alihkan ke login
-    if (empty($_SESSION['user'])) {
-        header('Location: login.php');
-        exit();
-    }
+//jika belum login, alihkan ke login
+if (empty($_SESSION['user'])) {
+    header('Location: login.php');
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Daftar Petugas</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container clearfix">
         <div class="col">
@@ -35,4 +37,5 @@
         </div>
     </div>
 </body>
+
 </html>

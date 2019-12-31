@@ -16,9 +16,9 @@ function ambil_kategori($db)
 
 function hitung_denda($tgl_kembali, $tgl_jatuh_tempo)
 {
-    if (strtotime( $tgl_kembali ) > strtotime($tgl_jatuh_tempo)) {
-        $kembali = new DateTime($tgl_kembali); 
-        $jatuh_tempo   = new DateTime($tgl_jatuh_tempo); 
+    if (strtotime($tgl_kembali) > strtotime($tgl_jatuh_tempo)) {
+        $kembali = new DateTime($tgl_kembali);
+        $jatuh_tempo   = new DateTime($tgl_jatuh_tempo);
 
         $selisih = $kembali->diff($jatuh_tempo);
         $selisih = $selisih->format('%d');

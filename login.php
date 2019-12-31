@@ -4,23 +4,25 @@ session_start();
 
 // jika sudah login, alihkan ke halaman list
 if (isset($_SESSION['user'])) {
-    header('Location: home.php');
-    exit();
+	header('Location: home.php');
+	exit();
 }
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Login SI Perpus</title>
+	<title>Login Sistem Informasi Perpustakaan</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
 	<form method="post" name="form_login" id="form_login" action="proses-login.php" style="margin-top: 120px;">
 		<table class="form">
 			<tr>
-				<td colspan="2" class="logonya">			
+				<td colspan="2" class="logonya">
 					<img src="./images/logoUMMU3.png" alt="">
 				</td>
 			</tr>
@@ -48,4 +50,5 @@ if (isset($_SESSION['user'])) {
 		</table>
 	</form>
 </body>
+
 </html>
