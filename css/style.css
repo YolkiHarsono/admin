@@ -1,0 +1,223 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #007858;
+    color: #FFF;
+    box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 48px;
+}
+.col{
+}
+
+h1{
+    margin: 0px;
+    padding: 15px;
+    background: #018763;
+    font-size: 16px;
+}
+.sidebar {
+    width: 20%;
+    float: left;
+    position: fixed;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar li a {
+    display: inline-block;
+    width: 100%;
+    padding: 14.7px;
+    box-sizing: border-box;
+}
+
+.sidebar li a:hover {
+    background-color: #1dbb90;
+}
+
+.sidebar li a.active{
+    background-color: #1dbb90;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.content {
+    width: 80%;
+    min-height: 500px;
+    float: right;
+    box-sizing: border-box;
+    background: #FFF;
+    color: #2c3e50;
+    margin-top: 43px;
+}
+
+.content h1{
+    color: #FFF;
+    background: #297054;
+    position: fixed;
+    width: 100%;
+    margin-top: -43px;
+    font-size: 12px;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.col-2{
+    padding: 20px;
+}
+
+body{
+    margin: 0;
+}
+
+/*tabel*/
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.data th {
+    padding: 10px 5px;
+}
+
+table.data td {
+    padding: 18px 15px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    vertical-align: top;
+}
+
+table.data td a.link {
+    color: #3F27E6;
+    text-decoration: underline;
+}
+table.data td a.link:hover {
+    color: #347FF7;
+    text-decoration: underline;
+}
+
+table.data tr:hover:not(:first-child) {
+    background-color: #f5f5f5;
+}
+
+table.data tr:not(:first-child):nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+
+/*form*/
+
+td.logonya {
+    text-align: center;
+    padding: 15px 0;
+}
+td.logonya img{
+    width: 80px;
+}
+
+h1.h1head{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.form{
+    background: #007858;
+    border-radius: 5px;
+    padding: 4px 20px 15px 20px;
+    box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    margin: 0 auto;
+    width: 295px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    font-size: inherit;
+    margin-top: 15px;
+    border: solid 1px #c3c3c3;
+    background: #f9fff9;
+}
+
+input[type='text'], input[type='password']{
+    border-radius: 5px;
+    text-align: center;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+.btn {
+    width: auto;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+table .btn{
+    font-size: 12px;
+}
+
+.btn-submit {
+    background-color: #39bb88;
+}
+
+.btn-submit:hover {
+    background-color: #5DB995;
+}
+
+.btn-tambah {
+    background-color: #27ae60;
+}
+
+.btn-tambah-div{
+    text-align: right;
+    margin-right: 20px;
+    padding: 48px 0px;
+}
+
+.btn-tambah:hover {
+    background-color: #2ecc71;
+}
+
+.btn-edit {
+    background-color: #2980b9;
+}
+.btn-edit:hover{
+    background-color: #5DA7D8;
+}
+
+.btn-hapus {
+    background-color: #c0392b;
+}
+.btn-hapus:hover {
+    background-color: #CE5A4E;
+}
+
+.buku-cover {
+    max-width: 150px;
+}
